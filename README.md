@@ -1,6 +1,6 @@
 # Component-Lib-Template
 
-[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/dyb-dev/component-lib-template)
+[![license](https://img.shields.io/badge/license-MIT-blue.svg)](https://zh.wikipedia.org/wiki/MIT%E8%A8%B1%E5%8F%AF%E8%AD%89)
 
 ## 简介
 
