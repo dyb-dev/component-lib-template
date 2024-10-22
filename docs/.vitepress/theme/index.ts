@@ -2,7 +2,7 @@
  * @Author: dyb-dev
  * @Date: 2024-06-24 19:59:56
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-09-30 15:47:51
+ * @LastEditTime: 2024-10-22 14:54:53
  * @FilePath: /component-lib-template/docs/.vitepress/theme/index.ts
  * @Description: 扩展主题、扩展vue应用配置文件
  */
