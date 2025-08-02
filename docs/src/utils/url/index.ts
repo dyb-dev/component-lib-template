@@ -1,15 +1,15 @@
 /*
  * @Author: dyb-dev
  * @Date: 2024-09-12 21:09:33
- * @LastEditors: v_zhgtzhong
- * @LastEditTime: 2025-08-01 01:12:13
+ * @LastEditors: dyb-dev
+ * @LastEditTime: 2025-08-02 19:20:02
  * @FilePath: /component-lib-template/docs/src/utils/url/index.ts
  * @Description: url相关工具函数
  */
 
 import queryString from "query-string"
 
-import { isBrowserEnv, isDevEnv } from "@/utils"
+import { isDevEnv } from "@/utils"
 
 /**
  * FUN: 获取当前 URL 网址
@@ -18,7 +18,7 @@ import { isBrowserEnv, isDevEnv } from "@/utils"
  * @date 14/06/2023/  00:57:34
  * @returns {string} 当前地址, 默认返回值:> http://localhost/
  */
-export const getCurrentUrl = (): string => isBrowserEnv() ? window.location.href : ""
+export const getCurrentUrl = (): string => window.location.href || ""
 
 /**
  * FUN: 获取当前 URL 网址的协议、域名、端口号组成的字符串
@@ -27,7 +27,7 @@ export const getCurrentUrl = (): string => isBrowserEnv() ? window.location.href
  * @date 15/10/2024/  12:32:42
  * @returns {*}  {string} - 当前地址的协议、域名、端口号组成的字符串
  */
-export const getCurrentUrlOrigin = (): string => isBrowserEnv() ? window.location.origin : ""
+export const getCurrentUrlOrigin = (): string => window.location.origin || ""
 
 /**
  * FUN: 获取基础 URL（去除查询参数）
@@ -243,16 +243,11 @@ export const toAbsoluteUrl = (options: IToAbsoluteUrlOptions): string => {
  * @param {string} assetsRelativePath - 资源相对路径
  * @returns {*}  {string} - 拼接后的资源绝对路径
  */
-export const toAssetsAbsoluteUrl = (assetsRelativePath: string) => {
-
-    const _absoluteUrl = toAbsoluteUrl({
+export const toAssetsAbsoluteUrl = (assetsRelativePath: string) =>
+    toAbsoluteUrl({
         relativePath: assetsRelativePath,
-        urlOrigin: getCurrentUrlOrigin()
+        urlOrigin: ""
     })
-
-    return isBrowserEnv() ? _absoluteUrl : `/${_absoluteUrl}`
-
-}
 
 /**
  * FUN: 根据选项移除 URL 的首尾斜杠
