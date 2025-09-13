@@ -1,6 +1,6 @@
 {
     "name": "component-lib-template",
-    "version": "0.2.1",
+    "version": "0.2.2",
     "description": "基于`vite`搭建的组件库模版",
     "author": "dyb-dev",
     "license": "MIT",
