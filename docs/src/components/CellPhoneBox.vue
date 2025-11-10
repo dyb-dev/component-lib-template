@@ -7,7 +7,7 @@
  * @Description: 手机盒子组件
 -->
 
-<script setup lang="ts">
+<script setup lang="tsx">
 import { App } from "ant-design-vue"
 import { useData } from "vitepress"
 import { computed, nextTick, onMounted, reactive, ref } from "vue"

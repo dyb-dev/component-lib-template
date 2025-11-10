@@ -2,12 +2,12 @@
  * @Author: dyb-dev
  * @Date: 2024-09-04 15:52:38
  * @LastEditors: dyb-dev
- * @LastEditTime: 2024-09-12 21:16:49
+ * @LastEditTime: 2025-11-11 01:13:57
  * @FilePath: /component-lib-template/src/components/ListPro/index.vue
  * @Description: 列表分页组件增强版(基于 vant 的 `PullRefresh`、`List`、`BackTop`、`Empty`、`Highlight` 组件)
 -->
 
-<script setup lang="ts">
+<script setup lang="tsx">
 defineOptions({
     /** 设置组件名 */
     name: "ListPro"
