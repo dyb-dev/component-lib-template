@@ -1,10 +1,10 @@
 /*
  * @Author: dyb-dev
  * @Date: 2024-06-24 19:59:56
- * @LastEditors: dyb-dev
- * @LastEditTime: 2025-11-11 01:11:33
+ * @LastEditors: Please set LastEditors
+ * @LastEditTime: 2025-11-15 13:14:21
  * @FilePath: /component-lib-template/docs/.vitepress/config.ts
- * @Description: VitePress配置文件
+ * @Description: VitePress 配置
  */
 
 import { resolve } from "path"
