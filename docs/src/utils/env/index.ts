@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2024-10-16 01:02:01
- * @LastEditors: dyb-dev
- * @LastEditTime: 2025-08-02 19:18:41
- * @FilePath: /component-lib-template/docs/src/utils/env/index.ts
- * @Description: 环境相关工具函数
+ * @FileDesc: 环境相关工具函数
  */
 
 import { getCurrentUrlQueryValue } from "@/utils"

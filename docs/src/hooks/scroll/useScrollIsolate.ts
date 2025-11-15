@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2025-11-08 13:02:50
- * @LastEditors: dyb-dev
- * @LastEditTime: 2025-11-08 13:03:02
- * @FilePath: /component-lib-template/docs/src/hooks/scroll/useScrollIsolate.ts
- * @Description: 使用滚动隔离
+ * @FileDesc: 使用滚动隔离
  */
 
 import { isRef, onMounted, onUnmounted, nextTick } from "vue"

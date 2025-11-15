@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2024-08-31 22:32:16
- * @LastEditors: dyb-dev
- * @LastEditTime: 2024-09-12 21:38:02
- * @FilePath: /component-lib-template/src/index.ts
- * @Description: 入口文件
+ * @FileDesc: 入口文件
  */
 
 import { CalendarPro, ListPro, TransitionPro } from "#/components"

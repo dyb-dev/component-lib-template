@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2024-09-05 02:14:37
- * @LastEditors: v_zhgtzhong
- * @LastEditTime: 2025-08-01 01:09:28
- * @FilePath: /component-lib-template/src/components/ListPro/hooks/usePagination.ts
- * @Description: 分页器
+ * @FileDesc: 分页器
  */
 
 import { useOffsetPagination } from "@vueuse/core"
@@ -47,17 +42,20 @@ export type TPaginationFetchDataFnReturn<T extends TPaginationDataItem> = Promis
 /** 分页配置 */
 export interface IUsePaginationOptions<T extends TPaginationDataItem> {
     /**
-     * @description 页码
+     * 页码
+     *
      * @default 1
      */
     page?: number
     /**
-     * @description 每页显示的项目数
+     * 每页显示的项目数
+     *
      * @default 10
      */
     pageSize?: number
     /**
-     * @description 是否在加载失败时使用之前加载的数据
+     * 是否在加载失败时使用之前加载的数据
+     *
      * @default false
      */
     usePreviousDataOnFail?: boolean

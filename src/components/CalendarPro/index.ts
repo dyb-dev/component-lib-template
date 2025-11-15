@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2024-09-02 15:13:28
- * @LastEditors: dyb-dev
- * @LastEditTime: 2024-09-04 01:30:44
- * @FilePath: /component-lib-template/src/components/CalendarPro/index.ts
- * @Description: 日历组件增强版(基于 vant 的 `Calendar` 组件)
+ * @FileDesc: 日历组件增强版(基于 vant 的 `Calendar` 组件)
  */
 
 import { withInstall } from "#/utils"

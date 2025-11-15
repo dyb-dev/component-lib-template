@@ -1,10 +1,5 @@
 /*
- * @Author: dyb-dev
- * @Date: 2024-09-12 21:09:33
- * @LastEditors: v_zhgtzhong
- * @LastEditTime: 2025-08-01 01:10:23
- * @FilePath: /component-lib-template/src/utils/withInstall.ts
- * @Description: 组件注册的辅助函数
+ * @FileDesc: 组件注册的辅助函数
  */
 
 import type { App, Component } from "vue"

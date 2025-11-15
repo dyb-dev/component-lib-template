@@ -1,11 +1,6 @@
 <!--
- * @Author: dyb-dev
- * @Date: 2024-09-10 14:19:23
- * @LastEditors: dyb-dev
- * @LastEditTime: 2024-09-11 01:46:40
- * @FilePath: /component-lib-template/docs/src/components/CellPhoneBox.vue
- * @Description: 手机盒子组件
--->
+ * @FileDesc: 手机盒子组件
+ -->
 
 <script setup lang="tsx">
 import { App } from "ant-design-vue"
