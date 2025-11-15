@@ -391,7 +391,8 @@
         "webp",
         "Weixin",
         "zepto",
-        "vant"
+        "vant",
+        "unocss"
     ],
 
     // #endregion
