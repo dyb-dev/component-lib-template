@@ -2,7 +2,7 @@
  * @FileDesc: 入口文件
  */
 
-import { CalendarPro, ListPro, TransitionPro } from "#/components"
+import { CalendarPro, ListPro, TransitionPro } from "~/components"
 
 import type { App } from "vue"
 
@@ -38,5 +38,5 @@ export default {
     install
 }
 
-export * from "#/components"
-export * from "#/utils"
+export * from "~/components"
+export * from "~/utils"
