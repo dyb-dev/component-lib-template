@@ -1,6 +1,6 @@
 {
     "name": "component-lib-template",
-    "version": "0.4.2",
+    "version": "0.4.3",
     "description": "基于`vite`搭建的组件库模版",
     "author": "dyb-dev",
     "license": "MIT",
@@ -73,11 +73,12 @@
     ],
     "devDependencies": {
         "@ant-design/icons-vue": "^7.0.1",
-        "@dyb-dev/eslint-config": "^0.4.0",
+        "@dyb-dev/eslint-config": "^1.1.1",
         "@dyb-dev/prettier-config": "^0.0.5",
         "@dyb-dev/project-cli": "^0.0.10",
         "@dyb-dev/stylelint-config": "^0.0.8",
         "@dyb-dev/ts-config": "^0.1.4",
+        "@unocss/eslint-config": "^66.5.10",
         "@vitejs/plugin-vue": "^5.1.4",
         "@vitejs/plugin-vue-jsx": "^5.1.1",
         "@vitepress-demo-preview/component": "^2.3.2",
